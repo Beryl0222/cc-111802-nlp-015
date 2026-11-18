@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "event_id": "evt-arrive-guangzhou",
+      "summary": "林则徐抵达广州查禁鸦片",
+      "chapter": "第一章 禁烟",
+      "revision": 1,
+      "participants": [{"person": "林则徐", "role": "主持"}]
+    },
+    {
+      "event_id": "evt-seize-opium",
+      "summary": "责令外商缴出鸦片",
+      "chapter": "第一章 禁烟",
+      "revision": 1,
+      "participants": [{"person": "林则徐", "role": "主持"}, {"person": "义律", "role": "交涉对方"}]
+    },
+    {
+      "event_id": "evt-humen-destroy",
+      "summary": "虎门海滩当众销毁鸦片",
+      "chapter": "第一章 禁烟",
+      "revision": 1,
+      "participants": [{"person": "林则徐", "role": "主持"}]
+    },
+    {
+      "event_id": "evt-british-north",
+      "summary": "英军舰队北上封锁珠江口",
+      "chapter": "第二章 战事",
+      "revision": 1,
+      "participants": [{"person": "懿律", "role": "率领"}]
+    },
+    {
+      "event_id": "evt-dinghai-fall",
+      "summary": "定海陷落",
+      "chapter": "第二章 战事",
+      "revision": 1,
+      "participants": [{"person": "葛云飞", "role": "守御"}]
+    },
+    {
+      "event_id": "evt-negotiation",
+      "summary": "双方派员交涉议和条件",
+      "chapter": "第二章 战事",
+      "revision": 1,
+      "participants": [{"person": "琦善", "role": "交涉"}]
+    }
+  ],
+  "clues": [
+    {
+      "clue_id": "clue-arrive-date",
+      "event_id": "evt-arrive-guangzhou",
+      "kind": "explicit",
+      "expression": "道光十九年正月二十五日",
+      "chapter": "第一章 禁烟",
+      "date": "1839-03-10",
+      "source_record": "lesson-event-timeline-lesson-a",
+      "revision": 1
+    },
+    {
+      "clue_id": "clue-seize-next-day",
+      "event_id": "evt-seize-opium",
+      "kind": "relative",
+      "expression": "翌日",
+      "chapter": "第一章 禁烟",
+      "anchor_event_id": "evt-arrive-guangzhou",
+      "offset_days": 1,
+      "source_record": "lesson-event-timeline-lesson-a",
+      "revision": 1
+    },
+    {
+      "clue_id": "clue-humen-date",
+      "event_id": "evt-humen-destroy",
+      "kind": "explicit",
+      "expression": "道光十九年四月二十二日",
+      "chapter": "第一章 禁烟",
+      "date": "1839-06-03",
+      "source_record": "lesson-event-timeline-lesson-a",
+      "revision": 1
+    },
+    {
+      "clue_id": "clue-british-next-day",
+      "event_id": "evt-british-north",
+      "kind": "relative",
+      "expression": "翌日",
+      "chapter": "第二章 战事",
+      "anchor_event_id": "evt-humen-destroy",
+      "offset_days": 1,
+      "source_record": "lesson-event-timeline-lesson-b",
+      "revision": 1
+    },
+    {
+      "clue_id": "clue-dinghai-date",
+      "event_id": "evt-dinghai-fall",
+      "kind": "explicit",
+      "expression": "道光二十年六月七日",
+      "chapter": "第二章 战事",
+      "date": "1840-07-05",
+      "source_record": "lesson-event-timeline-lesson-b",
+      "revision": 1
+    }
+  ]
+}
